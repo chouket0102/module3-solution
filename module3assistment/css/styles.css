@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #413f3f; /* Gray background for header */
+  border-bottom: 1px solid #e7e7e7;
+  padding: 10px 0;
+  
+}
+
+.navbar-brand {
+  font-size: 24px;
+  color: black; /* Black text for the brand */
+}
+
+.navbar-nav {
+  float: none;
+  text-align: center;
+  width: 100%;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+
+.navbar-nav > li > a {
+  background-color: #d3d3d3; /* Gray background for dropdown items */
+  color: black; /* Text color */
+  padding: 15px;
+  border-bottom: 1px solid #aaa;
+}
+
+.navbar-nav > li > a:hover {
+  background-color: #aaa; /* Darker gray on hover */
+}
+
+.menu-item {
+  background-color: #404040; /* Gray background for sections */
+  border: 2px solid #ddd;
+  padding: 20px;
+  margin: 15px 0px; /* Add margin between sections */
+  color: black; /* Black text for sections */
+  text-align: center; /* Center the text */
+}
+
+.menu-item h3 {
+  margin-top: 0;
+}
+
+.container {
+  margin-top: 20px; /* Space below the header */
+}
+.navbar {
+  margin-bottom: 0;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-brand {
+  color: black !important;
+}
+
+.menu-item {
+  background-color: #d3d3d3; /* Gray background for sections */
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px; /* Add margin between sections */
+  color: black; /* Black text for sections */
+  text-align: center; /* Center the text */
+}
+
+.page-header {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+}
